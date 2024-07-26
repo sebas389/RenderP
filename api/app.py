@@ -13,9 +13,7 @@ distritos = [
     'Miraflores', 'Pueblo Libre', 'San Borja', 'San Isidro', 'San Miguel', 'Surco', 'Surquillo'
 ]
 
-model = load('./housing_prediction.joblib')
-
-
+model = load('housing_prediction.joblib')
 
 @app.route('/')
 def index():
